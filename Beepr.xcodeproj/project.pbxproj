@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2736C3C71A954EAF00BB9879 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736C3C61A954EAF00BB9879 /* ConversationViewController.m */; };
+		2736C3C91A954EC500BB9879 /* ConversationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2736C3C81A954EC500BB9879 /* ConversationViewController.xib */; };
+		2736C3CF1A95AE7100BB9879 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736C3CD1A95AE7100BB9879 /* MessageTableViewCell.m */; };
+		2736C3D01A95AE7100BB9879 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2736C3CE1A95AE7100BB9879 /* MessageTableViewCell.xib */; };
+		2770966D190EA2C1006D2E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770966C190EA2C1006D2E6D /* Foundation.framework */; };
+		2770966F190EA2C1006D2E6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770966E190EA2C1006D2E6D /* CoreGraphics.framework */; };
+		27709671190EA2C1006D2E6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27709670190EA2C1006D2E6D /* UIKit.framework */; };
+		27709677190EA2C1006D2E6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27709675190EA2C1006D2E6D /* InfoPlist.strings */; };
+		27709679190EA2C1006D2E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27709678190EA2C1006D2E6D /* main.m */; };
+		2770967D190EA2C1006D2E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770967C190EA2C1006D2E6D /* AppDelegate.m */; };
+		2770967F190EA2C1006D2E6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2770967E190EA2C1006D2E6D /* Images.xcassets */; };
+		2770969F190EA2EF006D2E6D /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770969C190EA2EF006D2E6D /* SignInViewController.m */; };
+		277096A1190EA2EF006D2E6D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2770969E190EA2EF006D2E6D /* SignInViewController.xib */; };
+		277096AC190EA468006D2E6D /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096AA190EA468006D2E6D /* ContactsViewController.m */; };
+		277096AD190EA468006D2E6D /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277096AB190EA468006D2E6D /* ContactsViewController.xib */; };
+		277096B3190EA4C5006D2E6D /* ConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096B1190EA4C5006D2E6D /* ConversationListViewController.m */; };
+		277096B4190EA4C5006D2E6D /* ConversationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277096B2190EA4C5006D2E6D /* ConversationListViewController.xib */; };
+		277096C0190EA743006D2E6D /* ConversationListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096BE190EA743006D2E6D /* ConversationListTableViewCell.m */; };
+		277096C1190EA743006D2E6D /* ConversationListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277096BF190EA743006D2E6D /* ConversationListTableViewCell.xib */; };
+		277096C5190EA7F5006D2E6D /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096C3190EA7F5006D2E6D /* ContactTableViewCell.m */; };
+		277096C6190EA7F5006D2E6D /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277096C4190EA7F5006D2E6D /* ContactTableViewCell.xib */; };
+		277096C9190EAD71006D2E6D /* HipaaGramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096C8190EAD71006D2E6D /* HipaaGramViewController.m */; };
+		277096D3190EAE96006D2E6D /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 277096D2190EAE96006D2E6D /* Conversation.m */; };
+		27709730190EB1BB006D2E6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770972F190EB1BB006D2E6D /* QuartzCore.framework */; };
+		27709733190EB1FD006D2E6D /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 27709732190EB1FD006D2E6D /* Message.m */; };
+		278B8D5419106B7800CF5ED0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5019106B7800CF5ED0 /* CFNetwork.framework */; };
+		278B8D5519106B7800CF5ED0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5119106B7800CF5ED0 /* MobileCoreServices.framework */; };
+		278B8D5619106B7800CF5ED0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5219106B7800CF5ED0 /* Security.framework */; };
+		278B8D5719106B7800CF5ED0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5319106B7800CF5ED0 /* SystemConfiguration.framework */; };
+		278B8D5C19106B9C00CF5ED0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5819106B9C00CF5ED0 /* CoreLocation.framework */; };
+		278B8D5D19106B9C00CF5ED0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5919106B9C00CF5ED0 /* CoreTelephony.framework */; };
+		278B8D5E19106B9C00CF5ED0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5A19106B9C00CF5ED0 /* libsqlite3.dylib */; };
+		278B8D5F19106B9C00CF5ED0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B8D5B19106B9C00CF5ED0 /* libz.dylib */; };
+		279AFBA11B54C4D10070008A /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 279AFBA01B54C4D10070008A /* NSString+Validation.m */; };
+		27CB6E9719398B78003B212B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB6E9619398B78003B212B /* AdSupport.framework */; };
+		27CB6E9919398B83003B212B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB6E9819398B83003B212B /* iAd.framework */; };
+		D1176ABB6251438CAF19C04F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBF0EE876B48C7A4C93652 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2736C3C51A954EAF00BB9879 /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		2736C3C61A954EAF00BB9879 /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		2736C3C81A954EC500BB9879 /* ConversationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationViewController.xib; sourceTree = "<group>"; };
+		2736C3CC1A95AE7100BB9879 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		2736C3CD1A95AE7100BB9879 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		2736C3CE1A95AE7100BB9879 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		27709669190EA2C1006D2E6D /* Beepr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beepr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2770966C190EA2C1006D2E6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2770966E190EA2C1006D2E6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27709670190EA2C1006D2E6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27709674190EA2C1006D2E6D /* Beepr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beepr-Info.plist"; sourceTree = "<group>"; };
+		27709676190EA2C1006D2E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27709678190EA2C1006D2E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2770967A190EA2C1006D2E6D /* Beepr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beepr-Prefix.pch"; sourceTree = "<group>"; };
+		2770967B190EA2C1006D2E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2770967C190EA2C1006D2E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2770967E190EA2C1006D2E6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27709685190EA2C1006D2E6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2770968D190EA2C1006D2E6D /* BeeprTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeeprTests-Info.plist"; sourceTree = "<group>"; };
+		2770968F190EA2C1006D2E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27709691190EA2C1006D2E6D /* HipaaGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HipaaGramTests.m; sourceTree = "<group>"; };
+		2770969B190EA2EF006D2E6D /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		2770969C190EA2EF006D2E6D /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		2770969E190EA2EF006D2E6D /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		277096A9190EA468006D2E6D /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		277096AA190EA468006D2E6D /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		277096AB190EA468006D2E6D /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		277096B0190EA4C5006D2E6D /* ConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListViewController.h; sourceTree = "<group>"; };
+		277096B1190EA4C5006D2E6D /* ConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListViewController.m; sourceTree = "<group>"; };
+		277096B2190EA4C5006D2E6D /* ConversationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationListViewController.xib; sourceTree = "<group>"; };
+		277096BD190EA743006D2E6D /* ConversationListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListTableViewCell.h; sourceTree = "<group>"; };
+		277096BE190EA743006D2E6D /* ConversationListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListTableViewCell.m; sourceTree = "<group>"; };
+		277096BF190EA743006D2E6D /* ConversationListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationListTableViewCell.xib; sourceTree = "<group>"; };
+		277096C2190EA7F5006D2E6D /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		277096C3190EA7F5006D2E6D /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		277096C4190EA7F5006D2E6D /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		277096C7190EAD71006D2E6D /* HipaaGramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HipaaGramViewController.h; sourceTree = "<group>"; };
+		277096C8190EAD71006D2E6D /* HipaaGramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HipaaGramViewController.m; sourceTree = "<group>"; };
+		277096D1190EAE96006D2E6D /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		277096D2190EAE96006D2E6D /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		2770972F190EB1BB006D2E6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27709731190EB1FD006D2E6D /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		27709732190EB1FD006D2E6D /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		27709736190EC447006D2E6D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		278B8D5019106B7800CF5ED0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		278B8D5119106B7800CF5ED0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		278B8D5219106B7800CF5ED0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		278B8D5319106B7800CF5ED0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		278B8D5819106B9C00CF5ED0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		278B8D5919106B9C00CF5ED0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		278B8D5A19106B9C00CF5ED0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		278B8D5B19106B9C00CF5ED0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		279AFB9F1B54C4D10070008A /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		279AFBA01B54C4D10070008A /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		27CB6E9619398B78003B212B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		27CB6E9819398B83003B212B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		4DBBF0EE876B48C7A4C93652 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E5882BCAA31DD4C7CBD4F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDC763D8E44B0EBF2D5EDEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27709666190EA2C1006D2E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CB6E9919398B83003B212B /* iAd.framework in Frameworks */,
+				27CB6E9719398B78003B212B /* AdSupport.framework in Frameworks */,
+				278B8D5C19106B9C00CF5ED0 /* CoreLocation.framework in Frameworks */,
+				278B8D5D19106B9C00CF5ED0 /* CoreTelephony.framework in Frameworks */,
+				278B8D5E19106B9C00CF5ED0 /* libsqlite3.dylib in Frameworks */,
+				278B8D5F19106B9C00CF5ED0 /* libz.dylib in Frameworks */,
+				278B8D5419106B7800CF5ED0 /* CFNetwork.framework in Frameworks */,
+				278B8D5519106B7800CF5ED0 /* MobileCoreServices.framework in Frameworks */,
+				278B8D5619106B7800CF5ED0 /* Security.framework in Frameworks */,
+				278B8D5719106B7800CF5ED0 /* SystemConfiguration.framework in Frameworks */,
+				27709730190EB1BB006D2E6D /* QuartzCore.framework in Frameworks */,
+				2770966F190EA2C1006D2E6D /* CoreGraphics.framework in Frameworks */,
+				27709671190EA2C1006D2E6D /* UIKit.framework in Frameworks */,
+				2770966D190EA2C1006D2E6D /* Foundation.framework in Frameworks */,
+				D1176ABB6251438CAF19C04F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27709660190EA2C1006D2E6D = {
+			isa = PBXGroup;
+			children = (
+				27709735190EC43F006D2E6D /* Helper */,
+				277096CA190EAE6D006D2E6D /* Models */,
+				277096B7190EA5CC006D2E6D /* UITableViewCells */,
+				27709672190EA2C1006D2E6D /* HipaaGram */,
+				2770968B190EA2C1006D2E6D /* HipaaGramTests */,
+				2770966B190EA2C1006D2E6D /* Frameworks */,
+				2770966A190EA2C1006D2E6D /* Products */,
+				6EE0C8336F57CFF6D7B73469 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2770966A190EA2C1006D2E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27709669190EA2C1006D2E6D /* Beepr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2770966B190EA2C1006D2E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27CB6E9819398B83003B212B /* iAd.framework */,
+				27CB6E9619398B78003B212B /* AdSupport.framework */,
+				278B8D5819106B9C00CF5ED0 /* CoreLocation.framework */,
+				278B8D5919106B9C00CF5ED0 /* CoreTelephony.framework */,
+				278B8D5A19106B9C00CF5ED0 /* libsqlite3.dylib */,
+				278B8D5B19106B9C00CF5ED0 /* libz.dylib */,
+				278B8D5019106B7800CF5ED0 /* CFNetwork.framework */,
+				278B8D5119106B7800CF5ED0 /* MobileCoreServices.framework */,
+				278B8D5219106B7800CF5ED0 /* Security.framework */,
+				278B8D5319106B7800CF5ED0 /* SystemConfiguration.framework */,
+				2770972F190EB1BB006D2E6D /* QuartzCore.framework */,
+				2770966C190EA2C1006D2E6D /* Foundation.framework */,
+				2770966E190EA2C1006D2E6D /* CoreGraphics.framework */,
+				27709670190EA2C1006D2E6D /* UIKit.framework */,
+				27709685190EA2C1006D2E6D /* XCTest.framework */,
+				4DBBF0EE876B48C7A4C93652 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27709672190EA2C1006D2E6D /* HipaaGram */ = {
+			isa = PBXGroup;
+			children = (
+				2770967B190EA2C1006D2E6D /* AppDelegate.h */,
+				2770967C190EA2C1006D2E6D /* AppDelegate.m */,
+				2770967E190EA2C1006D2E6D /* Images.xcassets */,
+				27709673190EA2C1006D2E6D /* Supporting Files */,
+				277096C7190EAD71006D2E6D /* HipaaGramViewController.h */,
+				277096C8190EAD71006D2E6D /* HipaaGramViewController.m */,
+				2770969B190EA2EF006D2E6D /* SignInViewController.h */,
+				2770969C190EA2EF006D2E6D /* SignInViewController.m */,
+				2770969E190EA2EF006D2E6D /* SignInViewController.xib */,
+				277096B0190EA4C5006D2E6D /* ConversationListViewController.h */,
+				277096B1190EA4C5006D2E6D /* ConversationListViewController.m */,
+				277096B2190EA4C5006D2E6D /* ConversationListViewController.xib */,
+				2736C3C51A954EAF00BB9879 /* ConversationViewController.h */,
+				2736C3C61A954EAF00BB9879 /* ConversationViewController.m */,
+				2736C3C81A954EC500BB9879 /* ConversationViewController.xib */,
+				277096A9190EA468006D2E6D /* ContactsViewController.h */,
+				277096AA190EA468006D2E6D /* ContactsViewController.m */,
+				277096AB190EA468006D2E6D /* ContactsViewController.xib */,
+			);
+			path = HipaaGram;
+			sourceTree = "<group>";
+		};
+		27709673190EA2C1006D2E6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27709674190EA2C1006D2E6D /* Beepr-Info.plist */,
+				27709675190EA2C1006D2E6D /* InfoPlist.strings */,
+				27709678190EA2C1006D2E6D /* main.m */,
+				2770967A190EA2C1006D2E6D /* Beepr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2770968B190EA2C1006D2E6D /* HipaaGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				27709691190EA2C1006D2E6D /* HipaaGramTests.m */,
+				2770968C190EA2C1006D2E6D /* Supporting Files */,
+			);
+			path = HipaaGramTests;
+			sourceTree = "<group>";
+		};
+		2770968C190EA2C1006D2E6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2770968D190EA2C1006D2E6D /* BeeprTests-Info.plist */,
+				2770968E190EA2C1006D2E6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		277096B7190EA5CC006D2E6D /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				277096BD190EA743006D2E6D /* ConversationListTableViewCell.h */,
+				277096BE190EA743006D2E6D /* ConversationListTableViewCell.m */,
+				277096BF190EA743006D2E6D /* ConversationListTableViewCell.xib */,
+				277096C2190EA7F5006D2E6D /* ContactTableViewCell.h */,
+				277096C3190EA7F5006D2E6D /* ContactTableViewCell.m */,
+				277096C4190EA7F5006D2E6D /* ContactTableViewCell.xib */,
+				2736C3CC1A95AE7100BB9879 /* MessageTableViewCell.h */,
+				2736C3CD1A95AE7100BB9879 /* MessageTableViewCell.m */,
+				2736C3CE1A95AE7100BB9879 /* MessageTableViewCell.xib */,
+			);
+			name = UITableViewCells;
+			path = HipaaGram/UITableViewCells;
+			sourceTree = "<group>";
+		};
+		277096CA190EAE6D006D2E6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				277096D1190EAE96006D2E6D /* Conversation.h */,
+				277096D2190EAE96006D2E6D /* Conversation.m */,
+				27709731190EB1FD006D2E6D /* Message.h */,
+				27709732190EB1FD006D2E6D /* Message.m */,
+			);
+			name = Models;
+			path = HipaaGram/Models;
+			sourceTree = "<group>";
+		};
+		27709735190EC43F006D2E6D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27709736190EC447006D2E6D /* Constants.h */,
+				279AFB9F1B54C4D10070008A /* NSString+Validation.h */,
+				279AFBA01B54C4D10070008A /* NSString+Validation.m */,
+			);
+			name = Helper;
+			path = HipaaGram/Helper;
+			sourceTree = "<group>";
+		};
+		6EE0C8336F57CFF6D7B73469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69E5882BCAA31DD4C7CBD4F5 /* Pods.debug.xcconfig */,
+				8DDC763D8E44B0EBF2D5EDEA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27709668190EA2C1006D2E6D /* Beepr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27709695190EA2C1006D2E6D /* Build configuration list for PBXNativeTarget "Beepr" */;
+			buildPhases = (
+				7A4B5FED7B0E4654A5AB3CD8 /* Check Pods Manifest.lock */,
+				27709665190EA2C1006D2E6D /* Sources */,
+				27709666190EA2C1006D2E6D /* Frameworks */,
+				27709667190EA2C1006D2E6D /* Resources */,
+				108F089631664571972A7925 /* Copy Pods Resources */,
+				27709734190EB607006D2E6D /* TODO as Warnings */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beepr;
+			productName = HipaaGram;
+			productReference = 27709669190EA2C1006D2E6D /* Beepr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27709661190EA2C1006D2E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Catalyze Inc.";
+				TargetAttributes = {
+					27709668190EA2C1006D2E6D = {
+						DevelopmentTeam = Q9U2EF9B9V;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 27709664190EA2C1006D2E6D /* Build configuration list for PBXProject "Beepr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27709660190EA2C1006D2E6D;
+			productRefGroup = 2770966A190EA2C1006D2E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27709668190EA2C1006D2E6D /* Beepr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27709667190EA2C1006D2E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277096C1190EA743006D2E6D /* ConversationListTableViewCell.xib in Resources */,
+				277096AD190EA468006D2E6D /* ContactsViewController.xib in Resources */,
+				2736C3C91A954EC500BB9879 /* ConversationViewController.xib in Resources */,
+				277096C6190EA7F5006D2E6D /* ContactTableViewCell.xib in Resources */,
+				27709677190EA2C1006D2E6D /* InfoPlist.strings in Resources */,
+				277096B4190EA4C5006D2E6D /* ConversationListViewController.xib in Resources */,
+				2736C3D01A95AE7100BB9879 /* MessageTableViewCell.xib in Resources */,
+				277096A1190EA2EF006D2E6D /* SignInViewController.xib in Resources */,
+				2770967F190EA2C1006D2E6D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108F089631664571972A7925 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27709734190EB607006D2E6D /* TODO as Warnings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "TODO as Warnings";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO|FIXME|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+		7A4B5FED7B0E4654A5AB3CD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27709665190EA2C1006D2E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277096B3190EA4C5006D2E6D /* ConversationListViewController.m in Sources */,
+				277096C9190EAD71006D2E6D /* HipaaGramViewController.m in Sources */,
+				277096D3190EAE96006D2E6D /* Conversation.m in Sources */,
+				27709733190EB1FD006D2E6D /* Message.m in Sources */,
+				2736C3CF1A95AE7100BB9879 /* MessageTableViewCell.m in Sources */,
+				2770967D190EA2C1006D2E6D /* AppDelegate.m in Sources */,
+				277096C0190EA743006D2E6D /* ConversationListTableViewCell.m in Sources */,
+				2736C3C71A954EAF00BB9879 /* ConversationViewController.m in Sources */,
+				277096AC190EA468006D2E6D /* ContactsViewController.m in Sources */,
+				2770969F190EA2EF006D2E6D /* SignInViewController.m in Sources */,
+				279AFBA11B54C4D10070008A /* NSString+Validation.m in Sources */,
+				27709679190EA2C1006D2E6D /* main.m in Sources */,
+				277096C5190EA7F5006D2E6D /* ContactTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27709675190EA2C1006D2E6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27709676190EA2C1006D2E6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2770968E190EA2C1006D2E6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2770968F190EA2C1006D2E6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27709693190EA2C1006D2E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c42d33e7-1407-4dbe-a287-7eb1c6a93272";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27709694190EA2C1006D2E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "c42d33e7-1407-4dbe-a287-7eb1c6a93272";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27709696190EA2C1006D2E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E5882BCAA31DD4C7CBD4F5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HipaaGram/Beepr-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "HipaaGram/Beepr-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworkActivityLogger\"",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-AWSAutoScaling\"",
+					"-l\"Pods-AWSCloudWatch\"",
+					"-l\"Pods-AWSCore\"",
+					"-l\"Pods-AWSDynamoDB\"",
+					"-l\"Pods-AWSEC2\"",
+					"-l\"Pods-AWSElasticLoadBalancing\"",
+					"-l\"Pods-AWSKinesis\"",
+					"-l\"Pods-AWSMobileAnalytics\"",
+					"-l\"Pods-AWSS3\"",
+					"-l\"Pods-AWSSES\"",
+					"-l\"Pods-AWSSNS\"",
+					"-l\"Pods-AWSSQS\"",
+					"-l\"Pods-AWSSimpleDB\"",
+					"-l\"Pods-catalyze-ios-sdk\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.catalyze.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Beepr;
+				PROVISIONING_PROFILE = "c42d33e7-1407-4dbe-a287-7eb1c6a93272";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27709697190EA2C1006D2E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDC763D8E44B0EBF2D5EDEA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hoothere Inc. (Q9U2EF9B9V)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HipaaGram/Beepr-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "HipaaGram/Beepr-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworkActivityLogger\"",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-AWSAutoScaling\"",
+					"-l\"Pods-AWSCloudWatch\"",
+					"-l\"Pods-AWSCore\"",
+					"-l\"Pods-AWSDynamoDB\"",
+					"-l\"Pods-AWSEC2\"",
+					"-l\"Pods-AWSElasticLoadBalancing\"",
+					"-l\"Pods-AWSKinesis\"",
+					"-l\"Pods-AWSMobileAnalytics\"",
+					"-l\"Pods-AWSS3\"",
+					"-l\"Pods-AWSSES\"",
+					"-l\"Pods-AWSSNS\"",
+					"-l\"Pods-AWSSQS\"",
+					"-l\"Pods-AWSSimpleDB\"",
+					"-l\"Pods-catalyze-ios-sdk\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.catalyze.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Beepr;
+				PROVISIONING_PROFILE = "c42d33e7-1407-4dbe-a287-7eb1c6a93272";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27709664190EA2C1006D2E6D /* Build configuration list for PBXProject "Beepr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27709693190EA2C1006D2E6D /* Debug */,
+				27709694190EA2C1006D2E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27709695190EA2C1006D2E6D /* Build configuration list for PBXNativeTarget "Beepr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27709696190EA2C1006D2E6D /* Debug */,
+				27709697190EA2C1006D2E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27709661190EA2C1006D2E6D /* Project object */;
+}

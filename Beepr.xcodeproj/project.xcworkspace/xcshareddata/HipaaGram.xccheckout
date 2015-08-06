@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C3EBEFEE-8BDE-4998-BFAF-0C53AEF2408B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HipaaGram</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20B40E98D8BC63A4C4F4D6D35210FD762FA93B7D</key>
+		<string>https://github.com/catalyzeio/HIPAAGRAM.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HipaaGram.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20B40E98D8BC63A4C4F4D6D35210FD762FA93B7D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/catalyzeio/HIPAAGRAM.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20B40E98D8BC63A4C4F4D6D35210FD762FA93B7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20B40E98D8BC63A4C4F4D6D35210FD762FA93B7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HIPAAGRAM</string>
+		</dict>
+	</array>
+</dict>
+</plist>
